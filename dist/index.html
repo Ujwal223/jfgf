@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+  <script type="module" crossorigin src="/assets/index-nxYsu1KF.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-COSKaTeY.css">
+</head>
+<body>
+
+    <div class="upload-container">
+        <h2>Upload Your File</h2>
+        <form id="upload-form" method="post" enctype="multipart/form-data">
+            <div class="input-group">
+                <label for="file">Choose a file</label>
+                <input type="file" id="file" name="file" required>
+            </div>
+            <button type="submit" class="upload-button">Upload</button>
+        </form>
+
+        <!-- Error message -->
+        <p id="error-message" class="error-message"></p>
+        <!-- Success message -->
+        <p id="success-message" class="success-message"></p>
+    </div>
+
+</body>
+</html>
